@@ -3,7 +3,7 @@ name: TaoVPS
 on: 
   workflow_dispatch:
     inputs:
-      authcode:& "${Env:PROGRAMFILES(X86)}\Google\Chrome Remote Desktop\CurrentVersion\remoting_start_host.exe" --code="4/0AWtgzh584kvHmPjh9yDYo2ZmQTrmMqMPxUBrAn6XWVhClPUiBypmfm2swRvhIRWJth9QkA" --redirect-url="https://remotedesktop.google.com/_/oauthredirect" --name=$Env:COMPUTERNAME 
+      authcode:
         description: 'Nhập code'
         required: true
       pincode:
